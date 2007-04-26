@@ -1,0 +1,20 @@
+.scroll{
+    background-color:green;
+    padding:10px;
+padding-left:50px;
+padding-right: 40px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.scroll__right{
+    display:flex;
+    align-items:center;
+    
+}
+
+.scroll a{
+    text-decoration:none;
+    color:white;
+}

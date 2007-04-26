@@ -1,0 +1,24 @@
+.contact{
+    display:flex;
+    padding:60px;
+    align-items:center;
+}
+.contact__left{
+flex:0.4
+}
+.contact__middle{
+flex:0.2
+}
+.contact__center{
+flex:0.1
+}
+
+.contact__right{
+flex:0.2;
+margin-top:-35px
+}
+
+.contact__title{
+    margin-bottom:40px;
+}
+

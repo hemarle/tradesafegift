@@ -6,6 +6,9 @@ import How from './How'
 import Services from './Services'
 import Testimonial from './Testimonial'
 import GiftCards from './GiftCards'
+import Scroll from './Scroll'
+import Contact from './Contact'
+import Footer from './Footer'
 function Main(){
     return (
         <div className='main'>
@@ -15,6 +18,9 @@ function Main(){
 <Services/>
 <Testimonial/>
 <GiftCards/>
+<Scroll/>
+<Contact/>
+<Footer/>
        </div> 
     );
 

@@ -5,6 +5,7 @@ import About from './About'
 import How from './How'
 import Services from './Services'
 import Testimonial from './Testimonial'
+import GiftCards from './GiftCards'
 function Main(){
     return (
         <div className='main'>
@@ -13,6 +14,7 @@ function Main(){
 <How/>
 <Services/>
 <Testimonial/>
+<GiftCards/>
        </div> 
     );
 

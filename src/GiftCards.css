@@ -1,0 +1,17 @@
+.giftcards{
+    padding-left:170px;
+    padding-right:200px;
+    padding-bottom:100px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.giftcard{
+/* width:90% */
+}
+.giftcard img{
+width:90px;
+height:auto;
+margin-right:100px;
+margin-top:40px;
+}

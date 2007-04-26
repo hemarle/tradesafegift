@@ -4,6 +4,7 @@ import NavBar from './NavBar';
 import About from './About'
 import How from './How'
 import Services from './Services'
+import Testimonial from './Testimonial'
 function Main(){
     return (
         <div className='main'>
@@ -11,6 +12,7 @@ function Main(){
 <About/>
 <How/>
 <Services/>
+<Testimonial/>
        </div> 
     );
 

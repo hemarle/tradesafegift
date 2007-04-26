@@ -1,10 +1,22 @@
 .contact{
+    
     display:flex;
     padding:60px;
     align-items:center;
 }
 .contact__left{
-flex:0.4
+flex:0.4;
+position: relative;
+width: 40px;
+}
+.contact__left::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    background-image: url('images/map.png');
 }
 .contact__middle{
 flex:0.2
@@ -20,5 +32,25 @@ margin-top:-35px
 
 .contact__title{
     margin-bottom:40px;
+    font-weight: 700;
+    color:#647197;
 }
 
+.contact__leftInfo{
+    display: flex;
+    align-items: center;
+
+}
+
+.contact__leftInfo p{
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.contact__leftIcon{
+    color:#64717F;
+    
+    font-size: 15px !important;
+    margin: 0 !important;
+}

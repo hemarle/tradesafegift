@@ -3,11 +3,15 @@
 .navbar a{
     outline: none;
     text-decoration: none;
+    color:white
 }
 
 .navbar{
     display: flex;
     position: sticky;
+    top:0;
+    background-color: green;
+    z-index: 1;
     padding-top: 15px;
     padding-left: 50px;
     padding-right: 50px;
@@ -44,12 +48,13 @@
 .navbar button{
     height: 40px;
     /* width: 90px; */
-    border-radius: 4px;
+    border-radius: 2px;
+    border:1px solid white;
     margin-left: 10px;
     
 }
 .navbar__Signup{
-    background-color: rgb(108, 219, 247);
+    background-color: #5BC0DE;
     width: 90px;
 }
 .navbar__Login{

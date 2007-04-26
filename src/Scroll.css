@@ -1,5 +1,5 @@
 .scroll{
-    background-color:green;
+    background-color:#1A7A3C;
     padding:10px;
 padding-left:50px;
 padding-right: 40px;
@@ -14,7 +14,34 @@ padding-right: 40px;
     
 }
 
+.scroll__right p{
+    margin-right: 10px;
+    color: white;
+}
+.scroll__right div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 99px;
+}
+.scroll__right:hover{
+    cursor: pointer;
+}
+.scroll__right:hover div{
+    background-color: #E65B24;
+    
+}
 .scroll a{
     text-decoration:none;
     color:white;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.scroll__left{
+    color: white;
 }

@@ -1,6 +1,7 @@
 .how{
-    margin-top:100px;
-    margin-bottom:100px
+    padding-top:100px;
+    padding-bottom:100px;
+    background: #FAFAFE;
 }
 
 .how span{
@@ -28,4 +29,10 @@ color: green;
 .m-r{
     margin-top:40px;
     margin-left:100px;
+}
+
+@media screen and (max-width:414px){
+    .how center{
+        margin-left: 0px;
+    }
 }

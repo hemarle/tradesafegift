@@ -2,6 +2,8 @@
     display:flex;
     align-items:center;
     padding: 30px;
+    position: relative;
+    top: 0;
 }
 .about__Left{
     flex:0.5;
@@ -34,5 +36,24 @@
 
 .about__Right img{
     width: 500px;
-    height:auto
+    height:auto;
+    
+}
+
+@media screen and (max-width:425px){
+.about{
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    padding: 0;
+}   
+.about__Left p{
+    width: 50%;
+}
+.about__Right{
+    margin-left: 0;
+}
+.about__Right img{
+    width: 40px;
+    margin-top: 40px;
+}
 }

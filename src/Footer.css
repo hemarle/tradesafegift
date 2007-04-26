@@ -1,0 +1,15 @@
+.footer{
+    background: #FAFAFE;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px;
+    padding-left: 50px;
+}
+.footer__icon{
+    color:#64717F;
+    border:1px solid grey;
+    border-radius:3px;
+    padding:5px;
+    margin-right:10px;
+}

@@ -1,6 +1,8 @@
 import React from 'react';
 import './Main.css'
 import NavBar from './NavBar';
+import Slider from './Slider'
+import Mover from './Mover'
 import About from './About'
 import How from './How'
 import Services from './Services'
@@ -13,9 +15,11 @@ function Main(){
     return (
         <div className='main'>
 <NavBar/>
+<Slider/>
+<Mover/>
 <About/>
 <How/>
-<Services/>
+ <Services/> 
 <Testimonial/>
 <GiftCards/>
 <Scroll/>

@@ -1,16 +1,19 @@
 
 
-a{
+.navbar a{
     outline: none;
     text-decoration: none;
 }
 
 .navbar{
     display: flex;
+    position: sticky;
     padding-top: 15px;
     padding-left: 50px;
     padding-right: 50px;
     align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
 }
 .navbar__Left{
     flex: 0.08;

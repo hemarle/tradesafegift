@@ -1,0 +1,37 @@
+.about{
+    display:flex;
+    align-items:center;
+    padding: 30px;
+}
+.about__Left{
+    flex:0.5;
+    padding: 10px;
+}
+.about__Left h1{
+    font-size: 34x;
+    
+}
+.about__Left p{
+    color:green;
+
+}
+.about__LeftContact{
+    display:flex;
+}
+.about__LeftContact button{
+    margin-right: 10px;
+    background-color:green;
+    color:white;
+    width:150px;
+    border:none;
+    
+}
+.about__Right{
+    flex:0.5;
+    margin-left:40px
+}
+
+.about__Right img{
+    width: 500px;
+    height:auto
+}

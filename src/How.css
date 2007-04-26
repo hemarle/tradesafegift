@@ -1,0 +1,30 @@
+.how{
+    margin-top:100px;
+    margin-bottom:100px
+}
+
+.how span{
+color: green;
+}
+.how p{
+    width:65%;
+    color:grey;
+    
+}
+
+.how__Cards{
+    display:flex;
+    padding-left: 100px;
+}
+
+.how__Card h2{
+    color: green;
+}
+.bttn{
+    height:50px;    
+}
+
+.m-r{
+    margin-top:40px;
+    margin-left:100px;
+}

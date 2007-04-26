@@ -8,7 +8,7 @@ function About() {
                 <h1>What is Tradesafegiftworld?</h1>
                 <p>Tradesafegiftworld is a platform for the future of funding that powering crypto for the new equity blockchain</p>
             <div className='about__LeftContact'>
-                <button>Contact us</button>
+                <button className='btn-green'>Contact us</button>
                 <p> Watch Video</p>
             </div>
             </div>

@@ -18,13 +18,14 @@
 .about__LeftContact{
     display:flex;
 }
-.about__LeftContact button{
+.about__LeftContact button, .btn-green{
     margin-right: 10px;
     background-color:green;
     color:white;
     width:150px;
-    border:none;
     
+    border:none;
+
 }
 .about__Right{
     flex:0.5;

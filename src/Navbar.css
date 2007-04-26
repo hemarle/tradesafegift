@@ -1,0 +1,55 @@
+
+
+a{
+    outline: none;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+}
+.navbar__Left{
+    flex: 0.08;
+}
+
+.navbar__Center{
+    flex: 0.4;
+    /* margin-left: 35px; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar__Right{
+    flex: 0.5;
+    display: flex;
+    justify-content: flex-end;
+   /* margin-left: 200px; */
+    
+    
+    
+    
+}
+
+.navbar__Left img{
+    width: 60px;
+}
+.navbar button{
+    height: 40px;
+    /* width: 90px; */
+    border-radius: 4px;
+    margin-left: 10px;
+    
+}
+.navbar__Signup{
+    background-color: rgb(108, 219, 247);
+    width: 90px;
+}
+.navbar__Login{
+    background-color: transparent;
+    width:75px;
+}

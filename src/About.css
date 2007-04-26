@@ -42,18 +42,22 @@
 
 @media screen and (max-width:425px){
 .about{
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     flex-direction: column;
     padding: 0;
 }   
+.about__Left{
+    flex:1
+}
 .about__Left p{
-    width: 50%;
+    /* width: 50%; */
 }
 .about__Right{
+    flex:0;
     margin-left: 0;
 }
 .about__Right img{
-    width: 40px;
+    width: 300px;
     margin-top: 40px;
 }
 }

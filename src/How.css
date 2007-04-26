@@ -31,8 +31,19 @@ color: green;
     margin-left:100px;
 }
 
-@media screen and (max-width:414px){
+@media screen and (max-width:425px){
     .how center{
         margin-left: 0px;
+    }
+    .how__Cards{
+        flex-wrap: wrap;
+    }
+    .how__Card{
+        margin-top: 40px;
+        margin-left: -80px;
+    }
+
+    .bttn{
+        margin: 10px;
     }
 }

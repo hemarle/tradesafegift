@@ -14,7 +14,7 @@ import Footer from './Footer'
 function Main(){
     return (
         <div className='main'>
-<NavBar/>
+{/* <NavBar/> */}
 <Slider/>
 <Mover/>
 <About/>

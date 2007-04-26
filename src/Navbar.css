@@ -68,5 +68,11 @@
         visibility: hidden;
         flex-wrap: wrap;
         position: absolute;
+        
+    }
+}
+@media screen and (max-width:320px) {
+    .navbar{
+        max-width: 300px;
     }
 }

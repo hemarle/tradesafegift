@@ -7,9 +7,7 @@
     flex-wrap:wrap;
     background-color: #FAFAFC;
 }
-.giftcard{
-/* width:90% */
-}
+
 .giftcard img{
 width:90px;
 height:auto;
@@ -19,4 +17,15 @@ filter: grayscale(1);
 }
 .giftcard img:hover{
     filter: grayscale(0);
+}
+
+@media screen and (max-width:425px) {
+.giftcards{
+ justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+}
+.giftcard img{
+    margin: 0;
+}    
 }

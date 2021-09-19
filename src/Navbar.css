@@ -61,3 +61,12 @@
     background-color: transparent;
     width:75px;
 }
+
+
+@media screen and (max-width:425px) {
+    .navbar{
+        visibility: hidden;
+        flex-wrap: wrap;
+        position: absolute;
+    }
+}

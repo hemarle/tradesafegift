@@ -176,3 +176,18 @@ z-index: -1;
     height: 200px;
    
 }
+
+
+
+@media screen and (max-width: 425px) {
+.slider__1 h1{
+margin: 0;
+margin-left: -200px;
+padding: 0;
+width: 400px;
+/* font-size: 10px; */
+transform: scale(1,1);
+}
+
+    
+}

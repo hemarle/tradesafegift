@@ -222,3 +222,27 @@ font-size: 28px;
      width: 88%;
  }
 }
+
+
+
+@media screen and (max-width:375px) {
+    .slider__1 h1{
+        margin-left: -208px;
+        width:300px;
+    }
+    .slider__1 p{
+        margin-left: -150px;
+    }
+    .slider__1 .slider__button{
+        margin-left: -120px;
+    }
+
+.slider__2 h1{
+    margin-left: -142px;
+}
+
+.slider__2 p{
+    margin-left: -255px;
+}
+
+}

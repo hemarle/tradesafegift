@@ -43,11 +43,11 @@ console.log(header2.current, 'header2')
             <div className='slider__1'>
                
                 <div className='slider__center' >
-                    <h1>Welcome to Tradesafegiftworld</h1>
+                    <h1 >Welcome to Tradesafegiftworld</h1>
                     <br/>
-                    <p >Tradesafe is also known as the virtual trade world</p>
+                    <p   >Tradesafe is also known as the virtual trade world</p>
                     <br/>
-                    <button className='slider__button'>Get in touch</button>
+                    <button  className='slider__button'>Get in touch</button>
                     <br/>
                 </div>
 

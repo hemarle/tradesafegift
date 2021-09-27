@@ -6,6 +6,19 @@
 
 .how span{
 color: green;
+animation: color 5s linear infinite;
+}
+
+@keyframes color{
+    0%{
+
+        filter: hue-rotate(0deg);
+    }
+
+    100%{
+        
+filter: hue-rotate(360deg);
+    }
 }
 .how p{
     width:65%;
@@ -31,10 +44,10 @@ color: green;
     margin-left:100px;
 }
 
-@media screen and (max-width:425px){
+@media screen and (max-width:767px){
     .how>center p{
         width: 90%;
-        font-size: 12px;
+        /* font-size: 12px; */
         padding: 0%;
         margin-left:-30px ;
     }
